@@ -285,7 +285,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i work";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -317,7 +317,8 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
+}    content: "what i provide";
+
 
 /* skills section styling */
 
@@ -396,7 +397,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "awards to me";
 }
 .teams .carousel .card{
     background: #222;
