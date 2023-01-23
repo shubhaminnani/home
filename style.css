@@ -273,21 +273,21 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-.services, .teams{
+/* publication section styling */
+.publication, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before,
+.publication .title::before,
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
+.publication .title::after,
 .teams .title::after{
     background: #111;
     content: "what i work";
 }
-.services .serv-content .card{
+.publication .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -296,24 +296,24 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.publication .serv-content .card:hover{
     background: crimson;
 }
-.services .serv-content .card .box{
+.publication .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.publication .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.publication .serv-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.publication .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.publication .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
